@@ -20,7 +20,15 @@ h2{font-weight:400;color:#ddd;margin:8px 0 22px}
 .teams{display:flex;gap:8px;justify-content:center;align-items:center;text-align:center;margin:16px 0;font-size:17px}
 .teams span{color:#ffd400}
 .place{text-align:center;color:#aaa;margin-bottom:14px}
-.add{display:block;text-align:center;background:#ffd400;color:#111;text-decoration:none;font-weight:700;padding:10px;border-radius:7px}
+ .add{display:block;text-align:center;background:#ffd400;color:#111;text-decoration:none;font-weight:700;padding:10px;border-radius:7px}
+.sponsor-wrap{margin:42px 0 34px}
+.sponsor-banner{display:flex;align-items:center;justify-content:center;gap:28px;min-height:170px;padding:24px 30px;box-sizing:border-box;border:2px solid #ffd400;border-radius:14px;background:linear-gradient(135deg,#1b1b1b 0%,#262626 52%,#141414 100%);color:#fff;text-decoration:none;box-shadow:0 8px 24px rgba(0,0,0,.28)}
+.sponsor-copy{text-align:center;max-width:680px}
+.sponsor-kicker{font-size:14px;font-weight:800;letter-spacing:1.8px;color:#ffd400;margin-bottom:8px}
+.sponsor-title{font-size:clamp(24px,4vw,40px);font-weight:800;line-height:1.05;margin:0 0 8px}
+.sponsor-subtitle{font-size:16px;color:#d4d4d4;margin:0}
+.sponsor-logo{flex:0 0 auto;min-width:150px;min-height:90px;border:1px dashed #777;border-radius:10px;display:flex;align-items:center;justify-content:center;color:#aaa;font-size:12px;text-transform:uppercase;letter-spacing:1px}
+@media (max-width:680px){.sponsor-wrap{margin:34px 0 28px}.sponsor-banner{min-height:150px;padding:20px 18px}.sponsor-logo{display:none}.sponsor-subtitle{font-size:14px}}
 footer{text-align:center;color:#888;margin-top:35px;font-size:13px}
 </style>
 </head>
@@ -30,6 +38,16 @@ footer{text-align:center;color:#888;margin-top:35px;font-size:13px}
 <h1>CD GALAPAGAR</h1>
 <h2>Calendario oficial · Temporada 2026/2027 · Tercera Federación Grupo 7</h2>
 <a class="cta" href="calendario_cd_galapagar_2026_2027.ics">📱 Añadir las 34 jornadas a mi calendario</a>
+<div class="sponsor-wrap">
+  <a class="sponsor-banner" href="#" aria-label="Espacio publicitario para patrocinador">
+    <div class="sponsor-copy">
+      <div class="sponsor-kicker">ESPACIO DE PATROCINADOR</div>
+      <div class="sponsor-title">¿QUIERES ANUNCIAR TU EMPRESA?</div>
+      <p class="sponsor-subtitle">Asocia tu marca al CD Galapagar y hazla visible durante toda la temporada.</p>
+    </div>
+    <div class="sponsor-logo">Logo patrocinador</div>
+  </a>
+</div>
 </header>
 <div class="note">
 <strong>34 jornadas.</strong> Las fechas y enfrentamientos se han tomado del calendario publicado para la competición.
