@@ -11,6 +11,8 @@ header{text-align:center;padding:20px 0 30px}
 h1{margin:0;font-size:clamp(28px,5vw,46px);letter-spacing:.5px}
 h2{font-weight:400;color:#ddd;margin:8px 0 22px}
 .cta{display:inline-block;background:#ffd400;color:#111;text-decoration:none;font-weight:700;padding:14px 20px;border-radius:8px}
+.sponsor-banner{margin:34px auto 28px;max-width:900px;min-height:150px;background:#fff;border:3px solid #ffd400;border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px 22px;box-sizing:border-box;box-shadow:0 4px 16px rgba(0,0,0,.18)}
+.sponsor-label{font-size:12px;font-weight:800;letter-spacing:1.5px;color:#666;margin-bottom:10px}.sponsor-title{font-size:clamp(20px,3.4vw,30px);font-weight:800;color:#111;margin-bottom:8px}.sponsor-text{font-size:15px;line-height:1.45;color:#444;max-width:700px}.sponsor-banner:after{content:'Espacio disponible para logo, oferta o enlace del patrocinador';margin-top:12px;font-size:12px;color:#888}
 .note{background:#1e1e1e;border-left:5px solid #ffd400;padding:14px 16px;margin:20px 0 28px;color:#ddd}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
 .match{background:#1c1c1c;border-radius:10px;padding:16px;border:1px solid #333}
@@ -20,15 +22,7 @@ h2{font-weight:400;color:#ddd;margin:8px 0 22px}
 .teams{display:flex;gap:8px;justify-content:center;align-items:center;text-align:center;margin:16px 0;font-size:17px}
 .teams span{color:#ffd400}
 .place{text-align:center;color:#aaa;margin-bottom:14px}
- .add{display:block;text-align:center;background:#ffd400;color:#111;text-decoration:none;font-weight:700;padding:10px;border-radius:7px}
-.sponsor-wrap{margin:42px 0 34px}
-.sponsor-banner{display:flex;align-items:center;justify-content:center;gap:28px;min-height:170px;padding:24px 30px;box-sizing:border-box;border:2px solid #ffd400;border-radius:14px;background:linear-gradient(135deg,#1b1b1b 0%,#262626 52%,#141414 100%);color:#fff;text-decoration:none;box-shadow:0 8px 24px rgba(0,0,0,.28)}
-.sponsor-copy{text-align:center;max-width:680px}
-.sponsor-kicker{font-size:14px;font-weight:800;letter-spacing:1.8px;color:#ffd400;margin-bottom:8px}
-.sponsor-title{font-size:clamp(24px,4vw,40px);font-weight:800;line-height:1.05;margin:0 0 8px}
-.sponsor-subtitle{font-size:16px;color:#d4d4d4;margin:0}
-.sponsor-logo{flex:0 0 auto;min-width:150px;min-height:90px;border:1px dashed #777;border-radius:10px;display:flex;align-items:center;justify-content:center;color:#aaa;font-size:12px;text-transform:uppercase;letter-spacing:1px}
-@media (max-width:680px){.sponsor-wrap{margin:34px 0 28px}.sponsor-banner{min-height:150px;padding:20px 18px}.sponsor-logo{display:none}.sponsor-subtitle{font-size:14px}}
+.add{display:block;text-align:center;background:#ffd400;color:#111;text-decoration:none;font-weight:700;padding:10px;border-radius:7px}
 footer{text-align:center;color:#888;margin-top:35px;font-size:13px}
 </style>
 </head>
@@ -38,20 +32,15 @@ footer{text-align:center;color:#888;margin-top:35px;font-size:13px}
 <h1>CD GALAPAGAR</h1>
 <h2>Calendario oficial · Temporada 2026/2027 · Tercera Federación Grupo 7</h2>
 <a class="cta" href="calendario_cd_galapagar_2026_2027.ics">📱 Añadir las 34 jornadas a mi calendario</a>
-<div class="sponsor-wrap">
-  <a class="sponsor-banner" href="#" aria-label="Espacio publicitario para patrocinador">
-    <div class="sponsor-copy">
-      <div class="sponsor-kicker">ESPACIO DE PATROCINADOR</div>
-      <div class="sponsor-title">¿QUIERES ANUNCIAR TU EMPRESA?</div>
-      <p class="sponsor-subtitle">Asocia tu marca al CD Galapagar y hazla visible durante toda la temporada.</p>
-    </div>
-    <div class="sponsor-logo">Logo patrocinador</div>
-  </a>
-</div>
 </header>
+<div class="sponsor-banner" aria-label="Espacio publicitario para patrocinador">
+  <div class="sponsor-label">ESPACIO DE PATROCINADOR</div>
+  <div class="sponsor-title">¿QUIERES ANUNCIAR TU EMPRESA?</div>
+  <div class="sponsor-text">Asocia tu marca al CD Galapagar y hazla visible durante toda la temporada.</div>
+</div>
 <div class="note">
-<strong>34 jornadas.</strong> Las fechas y enfrentamientos se han tomado del calendario publicado para la competición.
-En los partidos en casa se muestra El Chopo a las 16:30. En los desplazamientos no se inventa la hora: queda indicada como pendiente de confirmación oficial.
+<strong></strong> Las fechas y los partidos se han tomado del calendario oficial publicado para la competición.
+Los partidos en El Chopo sen juegan a las 16:30h. En los desplazamientos no se especifica la hora ya que esta pendiente de confirmación oficial.
 </div>
 <section class="grid">
 
@@ -59,70 +48,68 @@ En los partidos en casa se muestra El Chopo a las 16:30. En los desplazamientos 
         <div class="jornada">JORNADA 1</div>
         <div class="date">06/09/2026</div>
         <div class="teams"><strong>CD Galapagar</strong><span>—</span><strong>CF Pozuelo de Alarcón</strong></div>
-        <div class="place">El Chopo · 16:30</div>
+        <div class="place">El Chopo · 16:30h</div>
         <a class="add" href="calendario_cd_galapagar_2026_2027.ics">Añadir a mi calendario</a>
       </article>
       <article class="match away">
         <div class="jornada">JORNADA 2</div>
-        <div class="date">13/09/2026</div>
-        <div class="teams"><strong>Real Aranjuez CF</strong><span>—</span><strong>CD Galapagar</strong></div>
-        <div class="place">Visitante · hora por confirmar</div>
+        <div class="date">12/09/2026</g<2>Estadio Municipal El Deleite · 18:00h</g<3>
         <a class="add" href="calendario_cd_galapagar_2026_2027.ics">Añadir a mi calendario</a>
       </article>
       <article class="match home">
         <div class="jornada">JORNADA 3</div>
         <div class="date">20/09/2026</div>
         <div class="teams"><strong>CD Galapagar</strong><span>—</span><strong>CD Las Rozas</strong></div>
-        <div class="place">El Chopo · 16:30</div>
+        <div class="place">El Chopo · 16:30h</div>
         <a class="add" href="calendario_cd_galapagar_2026_2027.ics">Añadir a mi calendario</a>
       </article>
       <article class="match away">
         <div class="jornada">JORNADA 4</div>
         <div class="date">27/09/2026</div>
         <div class="teams"><strong>Rayo Vallecano de Madrid B</strong><span>—</span><strong>CD Galapagar</strong></div>
-        <div class="place">Visitante · hora por confirmar</div>
+        <div class="place">Ciudad Deportiva Fundación Rayo Vallecano · Calle del Rayo Vallecano de Madrid, s/n · 28031/28051 (Madrid)</div>
         <a class="add" href="calendario_cd_galapagar_2026_2027.ics">Añadir a mi calendario</a>
       </article>
       <article class="match home">
         <div class="jornada">JORNADA 5</div>
         <div class="date">04/10/2026</div>
         <div class="teams"><strong>CD Galapagar</strong><span>—</span><strong>AD Cala Pozuelo</strong></div>
-        <div class="place">El Chopo · 16:30</div>
+        <div class="place">El Chopo · 16:30h</div>
         <a class="add" href="calendario_cd_galapagar_2026_2027.ics">Añadir a mi calendario</a>
       </article>
       <article class="match away">
         <div class="jornada">JORNADA 6</div>
         <div class="date">11/10/2026</div>
         <div class="teams"><strong>CD Leganés B</strong><span>—</span><strong>CD Galapagar</strong></div>
-        <div class="place">Visitante · hora por confirmar</div>
+        <div class="place">Ciudad Deportiva · Calle Arquitectura 6 · 28914 Leganés</div>
         <a class="add" href="calendario_cd_galapagar_2026_2027.ics">Añadir a mi calendario</a>
       </article>
       <article class="match away">
         <div class="jornada">JORNADA 7</div>
         <div class="date">18/10/2026</div>
         <div class="teams"><strong>CD Móstoles URJC</strong><span>—</span><strong>CD Galapagar</strong></div>
-        <div class="place">Visitante · hora por confirmar</div>
+        <div class="place">El Soto · Avenida de Iker Casillas s/n · 28935 Móstoles</div>
         <a class="add" href="calendario_cd_galapagar_2026_2027.ics">Añadir a mi calendario</a>
       </article>
       <article class="match home">
         <div class="jornada">JORNADA 8</div>
         <div class="date">25/10/2026</div>
         <div class="teams"><strong>CD Galapagar</strong><span>—</span><strong>Rayo Ciudad Alcobendas CF</strong></div>
-        <div class="place">El Chopo · 16:30</div>
+        <div class="place">El Chopo · 16:30h</div>
         <a class="add" href="calendario_cd_galapagar_2026_2027.ics">Añadir a mi calendario</a>
       </article>
       <article class="match away">
         <div class="jornada">JORNADA 9</div>
         <div class="date">01/11/2026</div>
         <div class="teams"><strong>CF Trival Valderas Alcorcón</strong><span>—</span><strong>CD Galapagar</strong></div>
-        <div class="place">Visitante · hora por confirmar</div>
+        <div class="place">La Canaleja · Variante Alcorcón a Leganés s/n · 28921 Alcorcón</div>
         <a class="add" href="calendario_cd_galapagar_2026_2027.ics">Añadir a mi calendario</a>
       </article>
       <article class="match home">
         <div class="jornada">JORNADA 10</div>
         <div class="date">08/11/2026</div>
         <div class="teams"><strong>CD Galapagar</strong><span>—</span><strong>UD San Sebastián Reyes B</strong></div>
-        <div class="place">El Chopo · 16:30</div>
+        <div class="place">El Chopo · 16:30h</div>
         <a class="add" href="calendario_cd_galapagar_2026_2027.ics">Añadir a mi calendario</a>
       </article>
       <article class="match away">
@@ -136,7 +123,7 @@ En los partidos en casa se muestra El Chopo a las 16:30. En los desplazamientos 
         <div class="jornada">JORNADA 12</div>
         <div class="date">22/11/2026</div>
         <div class="teams"><strong>CD Galapagar</strong><span>—</span><strong>México FC</strong></div>
-        <div class="place">El Chopo · 16:30</div>
+        <div class="place">El Chopo · 16:30h</div>
         <a class="add" href="calendario_cd_galapagar_2026_2027.ics">Añadir a mi calendario</a>
       </article>
       <article class="match away">
@@ -150,7 +137,7 @@ En los partidos en casa se muestra El Chopo a las 16:30. En los desplazamientos 
         <div class="jornada">JORNADA 14</div>
         <div class="date">06/12/2026</div>
         <div class="teams"><strong>CD Galapagar</strong><span>—</span><strong>AD Torrejón CF</strong></div>
-        <div class="place">El Chopo · 16:30</div>
+        <div class="place">El Chopo · 16:30h</div>
         <a class="add" href="calendario_cd_galapagar_2026_2027.ics">Añadir a mi calendario</a>
       </article>
       <article class="match away">
@@ -164,7 +151,7 @@ En los partidos en casa se muestra El Chopo a las 16:30. En los desplazamientos 
         <div class="jornada">JORNADA 16</div>
         <div class="date">20/12/2026</div>
         <div class="teams"><strong>CD Galapagar</strong><span>—</span><strong>Siello Nuevo Boadilla FC</strong></div>
-        <div class="place">El Chopo · 16:30</div>
+        <div class="place">El Chopo · 16:30h</div>
         <a class="add" href="calendario_cd_galapagar_2026_2027.ics">Añadir a mi calendario</a>
       </article>
       <article class="match away">
@@ -178,49 +165,49 @@ En los partidos en casa se muestra El Chopo a las 16:30. En los desplazamientos 
         <div class="jornada">JORNADA 18</div>
         <div class="date">17/01/2027</div>
         <div class="teams"><strong>CF Pozuelo de Alarcón</strong><span>—</span><strong>CD Galapagar</strong></div>
-        <div class="place">Visitante · hora por confirmar</div>
+        <div class="place">Complejo Deportivo Valle de las Cañas · Av. Juan Antonio Samaranch Torelló, 8 · Pozuelo de Alarcón (Madrid), 28223</div>
         <a class="add" href="calendario_cd_galapagar_2026_2027.ics">Añadir a mi calendario</a>
       </article>
       <article class="match home">
         <div class="jornada">JORNADA 19</div>
         <div class="date">24/01/2027</div>
         <div class="teams"><strong>CD Galapagar</strong><span>—</span><strong>Real Aranjuez CF</strong></div>
-        <div class="place">El Chopo · 16:30</div>
+        <div class="place">El Chopo · 16:30h</div>
         <a class="add" href="calendario_cd_galapagar_2026_2027.ics">Añadir a mi calendario</a>
       </article>
       <article class="match away">
         <div class="jornada">JORNADA 20</div>
         <div class="date">31/01/2027</div>
         <div class="teams"><strong>CD Las Rozas</strong><span>—</span><strong>CD Galapagar</strong></div>
-        <div class="place">Visitante · hora por confirmar</div>
+        <div class="place">Ntra. Señora de Retamar 18 · 28232 · Las Rozas de Madrid</div>
         <a class="add" href="calendario_cd_galapagar_2026_2027.ics">Añadir a mi calendario</a>
       </article>
       <article class="match home">
         <div class="jornada">JORNADA 21</div>
         <div class="date">07/02/2027</div>
         <div class="teams"><strong>CD Galapagar</strong><span>—</span><strong>Rayo Vallecano de Madrid B</strong></div>
-        <div class="place">El Chopo · 16:30</div>
+        <div class="place">El Chopo · 16:30h</div>
         <a class="add" href="calendario_cd_galapagar_2026_2027.ics">Añadir a mi calendario</a>
       </article>
       <article class="match away">
         <div class="jornada">JORNADA 22</div>
         <div class="date">14/02/2027</div>
         <div class="teams"><strong>AD Cala Pozuelo</strong><span>—</span><strong>CD Galapagar</strong></div>
-        <div class="place">Visitante · hora por confirmar</div>
+        <div class="place">Polideportivo El Pradillo · Camino de las Huertas · 28223 Pozuelo de Alarcón</div>
         <a class="add" href="calendario_cd_galapagar_2026_2027.ics">Añadir a mi calendario</a>
       </article>
       <article class="match home">
         <div class="jornada">JORNADA 23</div>
         <div class="date">21/02/2027</div>
         <div class="teams"><strong>CD Galapagar</strong><span>—</span><strong>CD Leganés B</strong></div>
-        <div class="place">El Chopo · 16:30</div>
+        <div class="place">El Chopo · 16:30h</div>
         <a class="add" href="calendario_cd_galapagar_2026_2027.ics">Añadir a mi calendario</a>
       </article>
       <article class="match home">
         <div class="jornada">JORNADA 24</div>
         <div class="date">28/02/2027</div>
         <div class="teams"><strong>CD Galapagar</strong><span>—</span><strong>CD Móstoles URJC</strong></div>
-        <div class="place">El Chopo · 16:30</div>
+        <div class="place">El Chopo · 16:30h</div>
         <a class="add" href="calendario_cd_galapagar_2026_2027.ics">Añadir a mi calendario</a>
       </article>
       <article class="match away">
@@ -234,7 +221,7 @@ En los partidos en casa se muestra El Chopo a las 16:30. En los desplazamientos 
         <div class="jornada">JORNADA 26</div>
         <div class="date">14/03/2027</div>
         <div class="teams"><strong>CD Galapagar</strong><span>—</span><strong>CF Trival Valderas Alcorcón</strong></div>
-        <div class="place">El Chopo · 16:30</div>
+        <div class="place">El Chopo · 16:30h</div>
         <a class="add" href="calendario_cd_galapagar_2026_2027.ics">Añadir a mi calendario</a>
       </article>
       <article class="match away">
@@ -248,7 +235,7 @@ En los partidos en casa se muestra El Chopo a las 16:30. En los desplazamientos 
         <div class="jornada">JORNADA 28</div>
         <div class="date">28/03/2027</div>
         <div class="teams"><strong>CD Galapagar</strong><span>—</span><strong>CD Colonia Moscardó</strong></div>
-        <div class="place">El Chopo · 16:30</div>
+        <div class="place">El Chopo · 16:30h</div>
         <a class="add" href="calendario_cd_galapagar_2026_2027.ics">Añadir a mi calendario</a>
       </article>
       <article class="match away">
@@ -262,7 +249,7 @@ En los partidos en casa se muestra El Chopo a las 16:30. En los desplazamientos 
         <div class="jornada">JORNADA 30</div>
         <div class="date">11/04/2027</div>
         <div class="teams"><strong>CD Galapagar</strong><span>—</span><strong>CF Fuenlabrada</strong></div>
-        <div class="place">El Chopo · 16:30</div>
+        <div class="place">El Chopo · 16:30h</div>
         <a class="add" href="calendario_cd_galapagar_2026_2027.ics">Añadir a mi calendario</a>
       </article>
       <article class="match away">
@@ -276,7 +263,7 @@ En los partidos en casa se muestra El Chopo a las 16:30. En los desplazamientos 
         <div class="jornada">JORNADA 32</div>
         <div class="date">25/04/2027</div>
         <div class="teams"><strong>CD Galapagar</strong><span>—</span><strong>AD Unión Adarve</strong></div>
-        <div class="place">El Chopo · 16:30</div>
+        <div class="place">El Chopo · 16:30h</div>
         <a class="add" href="calendario_cd_galapagar_2026_2027.ics">Añadir a mi calendario</a>
       </article>
       <article class="match away">
@@ -290,7 +277,7 @@ En los partidos en casa se muestra El Chopo a las 16:30. En los desplazamientos 
         <div class="jornada">JORNADA 34</div>
         <div class="date">09/05/2027</div>
         <div class="teams"><strong>CD Galapagar</strong><span>—</span><strong>CP Parla Escuela</strong></div>
-        <div class="place">El Chopo · 16:30</div>
+        <div class="place">El Chopo · 16:30h</div>
         <a class="add" href="calendario_cd_galapagar_2026_2027.ics">Añadir a mi calendario</a>
       </article>
 </section>
