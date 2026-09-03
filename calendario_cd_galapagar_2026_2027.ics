@@ -22,11 +22,17 @@ END:VEVENT
 
 BEGIN:VEVENT
 UID:cdgalapagar-2026-2027-j02@cdgalapagar.com
-DTSTAMP:20260815T152441Z
-DTSTART;VALUE=DATE:20260913
-DTEND;VALUE=DATE:20260914
+DTSTAMP:20260903T174600Z
+DTSTART;TZID=Europe/Madrid:20260912T180000
+DTEND;TZID=Europe/Madrid:20260912T200000
 SUMMARY:Jornada 2: Real Aranjuez CF - CD Galapagar
-DESCRIPTION:CD Galapagar · Tercera Federación Grupo 7 · Jornada 2. Hora del partido visitante pendiente de publicación/confirmación oficial.
+LOCATION:Estadio Municipal El Deleite · Paseo del Deleite, 1 · 28300 Aranjuez
+DESCRIPTION:CD Galapagar · Tercera Federación Grupo 7 · Jornada 2. Sábado 12 de septiembre de 2026 a las 18:00.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Partido del CD Galapagar mañana
+END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
@@ -50,6 +56,7 @@ DTSTAMP:20260815T152441Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:Jornada 4: Rayo Vallecano de Madrid B - CD Galapagar
+LOCATION:Ciudad Deportiva Fundación Rayo Vallecano · Calle del Rayo Vallecano de Madrid, s/n · 28031/28051 (Madrid)
 DESCRIPTION:CD Galapagar · Tercera Federación Grupo 7 · Jornada 4. Hora del partido visitante pendiente de publicación/confirmación oficial.
 END:VEVENT
 
@@ -74,6 +81,7 @@ DTSTAMP:20260815T152441Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:Jornada 6: CD Leganés B - CD Galapagar
+LOCATION:Ciudad Deportiva · Calle Arquitectura 6 · 28914 Leganés
 DESCRIPTION:CD Galapagar · Tercera Federación Grupo 7 · Jornada 6. Hora del partido visitante pendiente de publicación/confirmación oficial.
 END:VEVENT
 
@@ -83,6 +91,7 @@ DTSTAMP:20260815T152441Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:Jornada 7: CD Móstoles URJC - CD Galapagar
+LOCATION:El Soto · Avenida de Iker Casillas s/n · 28935 Móstoles
 DESCRIPTION:CD Galapagar · Tercera Federación Grupo 7 · Jornada 7. Hora del partido visitante pendiente de publicación/confirmación oficial.
 END:VEVENT
 
@@ -107,6 +116,7 @@ DTSTAMP:20260815T152441Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Jornada 9: CF Trival Valderas Alcorcón - CD Galapagar
+LOCATION:La Canaleja · Variante Alcorcón a Leganés s/n · 28921 Alcorcón
 DESCRIPTION:CD Galapagar · Tercera Federación Grupo 7 · Jornada 9. Hora del partido visitante pendiente de publicación/confirmación oficial.
 END:VEVENT
 
@@ -212,6 +222,7 @@ DTSTAMP:20260815T152441Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Jornada 18: CF Pozuelo de Alarcón - CD Galapagar
+LOCATION:Complejo Deportivo Valle de las Cañas · Av. Juan Antonio Samaranch Torelló, 8 · Pozuelo de Alarcón (Madrid), 28223
 DESCRIPTION:CD Galapagar · Tercera Federación Grupo 7 · Jornada 18. Hora del partido visitante pendiente de publicación/confirmación oficial.
 END:VEVENT
 
@@ -236,6 +247,7 @@ DTSTAMP:20260815T152441Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:Jornada 20: CD Las Rozas - CD Galapagar
+LOCATION:Ntra. Señora de Retamar 18 · 28232 · Las Rozas de Madrid
 DESCRIPTION:CD Galapagar · Tercera Federación Grupo 7 · Jornada 20. Hora del partido visitante pendiente de publicación/confirmación oficial.
 END:VEVENT
 
@@ -260,6 +272,7 @@ DTSTAMP:20260815T152441Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Jornada 22: AD Cala Pozuelo - CD Galapagar
+LOCATION:Polideportivo El Pradillo · Camino de las Huertas · 28223 Pozuelo de Alarcón
 DESCRIPTION:CD Galapagar · Tercera Federación Grupo 7 · Jornada 22. Hora del partido visitante pendiente de publicación/confirmación oficial.
 END:VEVENT
 
